@@ -43,6 +43,10 @@ class MovieList extends Component {
                                     <Nav.Link><Image className="image" src={movie.imageUrl} thumbnail /></Nav.Link>
                                 </LinkContainer>
                             </div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
                             <Carousel.Caption>
                                 <h3>{movie.title}</h3>
                                 <BsStarFill glyph={'star'}/> {movie.avgRating} &nbsp;&nbsp; {movie.yearReleased}
